@@ -1,15 +1,16 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Hello from '@/components/Hello'
+import Vue from 'vue';
+import Router from 'vue-router';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
-  routes: [
+routes: [
     {
-      path: '/',
-      name: 'Hello',
-      component: Hello
-    }
-  ]
+        path: '/',
+        component: resolve => require(['@/components/common/HeadBar.vue'], resolve),
+        children:[]
+    },
+
+
+]
 })
