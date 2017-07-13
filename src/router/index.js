@@ -7,10 +7,8 @@ export default new Router({
 routes: [
     {
         path: '/',
-        component: resolve => require(['@/components/common/HeadBar.vue'], resolve),
+        component: resolve => require(['@/components/common/Home.vue'], resolve),
         children:[]
-    },
-
-
+    }
 ]
 })
