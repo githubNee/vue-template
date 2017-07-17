@@ -8,7 +8,12 @@ routes: [
     {
         path: '/',
         component: resolve => require(['@/components/common/Home.vue'], resolve),
-        children:[]
+        children:[
+          {
+            path:'/main',
+            component: resolve => require(['@/components/pages/Table.vue'], resolve)
+          }
+        ]
     }
 ]
 })

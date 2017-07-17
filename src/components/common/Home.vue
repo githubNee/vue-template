@@ -23,3 +23,9 @@
         }
     }
 </script>
+<style media="screen">
+  .content{
+    margin: auto;
+    max-width: 30%;
+  }
+</style>

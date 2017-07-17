@@ -42,15 +42,15 @@
 </script>
 
 <style scoped>
-    .sidebar{
-        display: block;
-        position: absolute;
-        width: 250px;
-        top: 70px;
-        bottom:0;
+.sidebar{
+    display: block;
+    position: absolute;
+    width: 250px;
+    top: 70px;
+    bottom:0;
 
-    }
-    .sidebar > ul {
-        height:100%;
-    }
+}
+.sidebar > ul {
+    height:100%;
+}
 </style>

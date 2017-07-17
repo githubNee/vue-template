@@ -42,6 +42,7 @@
 </script>
 <style scoped>
     .header {
+        left: 0;
     }
 
 </style>
