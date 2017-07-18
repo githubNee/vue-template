@@ -12,6 +12,10 @@ routes: [
           {
             path:'/main',
             component: resolve => require(['@/components/pages/Table.vue'], resolve)
+          },
+          {
+            path: '/input',
+            component: resolve => require(['@/components/pages/Input.vue'], resolve)
           }
         ]
     }
